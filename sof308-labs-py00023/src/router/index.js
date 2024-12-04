@@ -15,6 +15,10 @@ import Lab6Bai1 from "@/components/Lab6/Lab6Bai1.vue";
 import Lab6Bai2 from "@/components/Lab6/Lab6Bai2.vue";
 import Lab6Bai3 from "@/components/Lab6/Lab6Bai3.vue";
 import Lab6Bai4 from "@/components/Lab6/Lab6Bai4.vue";
+import Lab7Bai1 from "@/components/Lab7/Lab7Bai1.vue";
+import Lab7Bai2 from "@/components/Lab7/Lab7Bai2.vue";
+import Lab7Bai3 from "@/components/Lab7/Lab7Bai3.vue";
+import Lab7Bai4 from "@/components/Lab7/Lab7Bai4.vue";
 
 const routes = [
   { path: "/Sof308Lab1", component: Sof308Lab1 },
@@ -33,6 +37,10 @@ const routes = [
   { path: "/Lab6/Lab6Bai2", component: Lab6Bai2 },
   { path: "/Lab6/Lab6Bai3", component: Lab6Bai3 },
   { path: "/Lab6/Lab6Bai4", component: Lab6Bai4 },
+  { path: "/Lab7/Lab7Bai1", component: Lab7Bai1 },
+  { path: "/Lab7/Lab7Bai2", component: Lab7Bai2 },
+  { path: "/Lab7/Lab7Bai3", component: Lab7Bai3 },
+  { path: "/Lab7/Lab7Bai4", component: Lab7Bai4 },
 ];
 
 const router = createRouter({
